@@ -1,7 +1,11 @@
 """IPyMOL: View and control your PyMOL sessions from the IPython Notebook"""
 import sys
 from setuptools import setup, find_packages
-from ipymol import __name__, __version__
+# from ipymol import __name__, __version__
+
+__name__ = 'ipymol'
+__version__ = '0.4.1'
+__author__ = 'Carlos Xavier Hernandez'
 
 NAME = __name__
 VERSION = __version__
